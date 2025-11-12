@@ -11,7 +11,7 @@ const projects = [
     id: 1,
     title: 'Calculator',
     description: 'Short description of project one — what it does and tech used.',
-    tags: ['React', 'Tailwind', 'API'],
+    tags: ['HTML' , 'CSS' , 'JAVASCRIPT'],
     image: Calculator,
     link: 'https://iridescent-cajeta-d8e6e6.netlify.app/',
     repo: 'https://github.com/rudro33',
@@ -29,9 +29,9 @@ const projects = [
     id: 3,
     title: 'Project Three',
     description: 'Short description of project three.',
-    tags: ['React', 'DaisyUI'],
-    image: '',
-    link: 'www.linkedin.com/in/pritom-majumder-7b4008314',
+    tags: ['HTML' , 'CSS' , 'JAVASCRIPT'],
+    image: Calculator,
+    link: 'https://iridescent-cajeta-d8e6e6.netlify.app/',
     repo: 'https://github.com/rudro33',
   },
 ];
@@ -82,7 +82,7 @@ export default function App() {
             <a href='https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile' target="_blank" rel="noopener noreferrer" className="text-slate-200 hover:text-yellow-400">
               <FaLinkedin size={22} />
             </a>
-            <a href="https://github.com/rudro33/Task-1" target="_blank" rel="noopener noreferrer" className="text-slate-200 hover:text-yellow-400">
+            <a href="https://github.com/rudro33/Pr.git" target="_blank" rel="noopener noreferrer" className="text-slate-200 hover:text-yellow-400">
               <FaGithub size={22} />
             </a>
             <a href={Cv} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-yellow-400 text-slate-900 rounded-lg font-semibold hover:opacity-90 transition-opacity">
