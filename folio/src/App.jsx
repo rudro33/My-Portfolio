@@ -5,13 +5,16 @@ import { GiPawPrint } from 'react-icons/gi';
 import Pritom from '../src/assets/pritom.PNG';
 import Calculator from '../src/assets/Calculator.png'
 import Cv from '../src/assets/Pritom Mojumder_CV_Ostad_CV_Builder_2025-11-10 (1).pdf';
+import Agency from '../src/assets/Agency.png'
+
+
 
 const projects = [
   {
     id: 1,
     title: 'Calculator',
     description: 'Short description of project one — what it does and tech used.',
-    tags: ['HTML' , 'CSS' , 'JAVASCRIPT'],
+    tags: [''],
     image: Calculator,
     link: 'https://iridescent-cajeta-d8e6e6.netlify.app/',
     repo: 'https://github.com/rudro33',
@@ -20,10 +23,10 @@ const projects = [
     id: 2,
     title: 'Project Two',
     description: 'Short description of project two.',
-    tags: ['Next.js', 'GraphQL'],
-    image: '',
-    link: 'www.linkedin.com/in/pritom-majumder-7b4008314',
-    repo: 'https://github.com/rudro33',
+    tags: ['HTML', 'Tailwind'],
+    image: Agency,
+    link: 'https://tubular-snickerdoodle-64561d.netlify.app/',
+    repo: 'https://github.com/rudro33/Home',
   },
   {
     id: 3,
