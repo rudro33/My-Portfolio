@@ -21,7 +21,7 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Project Two',
+    title: 'Agency',
     description: 'Short description of project two.',
     tags: ['HTML', 'Tailwind'],
     image: Agency,
