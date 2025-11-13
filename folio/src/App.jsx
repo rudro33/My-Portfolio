@@ -6,17 +6,18 @@ import Pritom from '../src/assets/pritom.PNG';
 import Calculator from '../src/assets/Calculator.png'
 import Cv from '../src/assets/Pritom Mojumder_CV_Ostad_CV_Builder_2025-11-10 (1).pdf';
 import Agency from '../src/assets/Agency.png'
+import Tech from "../src/assets/Tech.png"
 
 
 
 const projects = [
   {
     id: 1,
-    title: 'Calculator',
+    title: 'Tech Event',
     description: 'Short description of project one — what it does and tech used.',
-    tags: [''],
-    image: Calculator,
-    link: 'https://iridescent-cajeta-d8e6e6.netlify.app/',
+    tags: ['React','Tailwind','Javascript','DaisyUi'],
+    image: Tech,
+    link: 'https://rainbow-sopapillas-07b074.netlify.app/',
     repo: 'https://github.com/rudro33',
   },
   {
