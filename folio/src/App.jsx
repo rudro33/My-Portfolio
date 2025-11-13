@@ -3,10 +3,10 @@ import { FaGithub, FaLinkedin, FaReact, FaHtml5, FaCss3Alt, FaJsSquare, FaBootst
 import { SiTailwindcss, SiNetlify } from 'react-icons/si';
 import { GiPawPrint } from 'react-icons/gi';
 import Pritom from '../src/assets/pritom.PNG';
-import Calculator from '../src/assets/Calculator.png'
+import Calculator from './assets/Calculator.png'
 import Cv from '../src/assets/Pritom Mojumder_CV_Ostad_CV_Builder_2025-11-10 (1).pdf';
-import Agency from '../src/assets/Agency.png'
-import Tech from "../src/assets/Tech.png"
+import Agency from './assets/Agency.png'
+import Tech from "./assets/Tech.png"
 
 
 
