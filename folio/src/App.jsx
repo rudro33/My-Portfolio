@@ -14,7 +14,7 @@ const projects = [
   {
     id: 1,
     title: 'Tech Event',
-    description: 'Short description of project one — what it does and tech used.',
+    description: 'Developed a modern and responsive Tech Event concert website using React, Tailwind CSS, DaisyUI, and React Icons. Focused on clean design, interactive components, and mobile-friendly layouts to showcase event details, schedule, and performers effectively.',
     tags: ['React','Tailwind','Javascript','DaisyUi'],
     image: Tech,
     link: 'https://rainbow-sopapillas-07b074.netlify.app/',
@@ -23,7 +23,7 @@ const projects = [
   {
     id: 2,
     title: 'Agency',
-    description: 'Short description of project two.',
+    description: 'Developed a modern and responsive agency website using HTML and Tailwind CSS. Focused on clean design, smooth layout, and mobile-friendly user experience to showcase services and branding effectively.',
     tags: ['HTML', 'Tailwind'],
     image: Agency,
     link: 'https://tubular-snickerdoodle-64561d.netlify.app/',
@@ -32,7 +32,7 @@ const projects = [
   {
     id: 3,
     title: 'Project Three',
-    description: 'Short description of project three.',
+    description: 'Created a fully functional calculator using HTML, CSS, and JavaScript. Focused on clean UI design, responsive layout, and smooth calculation logic to deliver a simple and user-friendly experience.',
     tags: ['HTML' , 'CSS' , 'JAVASCRIPT'],
     image: Calculator,
     link: 'https://iridescent-cajeta-d8e6e6.netlify.app/',
@@ -47,7 +47,7 @@ export default function App() {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    const speed = 200;
+    const speed = 300;
     const timeout = setTimeout(() => {
       if (!isDeleting) {
         setDisplayedName(fullName.slice(0, index + 1));
@@ -103,11 +103,11 @@ export default function App() {
             Hi, I’m <br /><span className="text-yellow-400">{displayedName}</span><br /> — a Frontend Developer.
           </h1>
           <p className="mt-6 max-w-xl text-lg text-slate-200">
-            I build accessible, performant web apps with React and Tailwind. I enjoy transforming Figma designs into production-ready code.
+            A passionate Front-End Developer with solid understanding of HTML, CSS, Tailwind CSS, Bootstrap, JavaScript, React, and GitHub. Experienced in creating responsive, user-friendly interfaces and building modern web projects with clean design and efficient code structure. Always eager to learn new technologies and improve development skills.
           </p>
         </div>
         <div className="flex-1 flex justify-center">
-          <div className="w-[320px] h-[320px] md:w-[420px] md:h-[420px] bg-black rounded-full shadow-lg border border-yellow-300/20 flex items-center justify-center p-4">
+          <div className="w-[320px] h-[320px] md:w-[420px] md:h-[420px] bg-black-300/20 rounded-full shadow-lg border border-yellow-300/20 flex items-center justify-center p-4">
             <img src={Pritom} alt="hero" className="object-cover w-full h-full rounded-full" />
           </div>
         </div>
@@ -202,14 +202,58 @@ export default function App() {
 
       {/* Footer */}
       <footer id="footer" className="mt-12 border-t border-slate-700 py-8 text-slate-300">
-        <div className="max-w-6xl mx-auto px-6 flex items-center justify-between text-sm">
-          <div>© {new Date().getFullYear()} Pritom Majumder. All rights reserved.</div>
-          <div className="flex items-center gap-4">
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-          </div>
-        </div>
-      </footer>
+  <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between text-sm">
+
+    {/* Left Side Text */}
+    <div className="mb-4 md:mb-0">
+      © {new Date().getFullYear()} Pritom Majumder. All rights reserved.
+    </div>
+
+    {/* Right Side Icons + Links */}
+    <div className="flex items-center gap-6">
+
+      {/* LinkedIn */}
+      <a 
+        href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="text-slate-300 hover:text-yellow-400 transition-colors"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M0 1.146C0 .513.526 0 1.175 0h.012C1.823 0 2.35.513 2.35 1.146c0 .632-.527 1.146-1.175 1.146H1.175C.526 2.292 0 1.778 0 1.146zM.045 4.5H2.3V15H.045V4.5zM5.004 4.5h2.156v1.435h.03c.301-.57 1.037-1.17 2.129-1.17C12.74 4.764 14 6.07 14 8.313V15h-2.256V8.979c0-1.482-.03-3.385-2.065-3.385-2.07 0-2.386 1.62-2.386 3.276V15H5.004V4.5z"/>
+        </svg>
+      </a>
+
+      {/* GitHub */}
+      <a 
+        href="https://github.com/rudro33" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="text-slate-300 hover:text-yellow-400 transition-colors"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38 
+          0-.19-.01-.82-.01-1.49-2 .37-2.69-.49-2.86-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
+          -.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78
+          -.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 
+          0 0 .67-.21 2.2.82A7.65 7.65 0 0 1 8 3.98c.68.003 1.37.092 2.01.27 
+          1.52-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 
+          1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 
+          1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8 8 0 0 0 16 
+          8c0-4.42-3.58-8-8-8z"/>
+        </svg>
+      </a>
+
+      {/* Privacy */}
+      <a href="#" className="hover:text-yellow-400 transition-colors">Privacy</a>
+
+      {/* Terms */}
+      <a href="#" className="hover:text-yellow-400 transition-colors">Terms</a>
+
+    </div>
+  </div>
+</footer>
+
     </div>
   );
 }
